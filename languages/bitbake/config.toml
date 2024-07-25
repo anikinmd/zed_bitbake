@@ -1,0 +1,10 @@
+name = "bitbake"
+grammar = "bitbake"
+path_suffixes = ["bb", "bbappend", "bbclass", "inc", "conf"]
+line_comments = ["# "]
+
+brackets = [
+    { start = "[", end = "]", close = true, newline = false },
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "{", end = "}", close = true, newline = true },
+]

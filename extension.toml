@@ -1,0 +1,15 @@
+id = "bitbake"
+name = "bitbake"
+schema_version = 1
+description = "Bitbake language support for the Zed editor"
+repository = "https://github.com/anikinmd/zed-bitbake"
+authors = ["Mikhail Anikin <anikin.mikhail.d@gmail.com>"]
+version = "0.0.1"
+
+[grammars.bitbake]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-bitbake"
+commit = "a5d04fdb5a69a02b8fa8eb5525a60dfb5309b73b"
+
+[language_servers.bitbake]
+name = "bitbake"
+languages = ["bitbake"]
