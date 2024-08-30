@@ -4,7 +4,7 @@ schema_version = 1
 description = "Bitbake language support for the Zed editor"
 repository = "https://github.com/anikinmd/zed_bitbake"
 authors = ["Mikhail Anikin <anikin.mikhail.d@gmail.com>"]
-version = "0.0.1"
+version = "0.0.2"
 
 [grammars.bitbake]
 repository = "https://github.com/tree-sitter-grammars/tree-sitter-bitbake"
