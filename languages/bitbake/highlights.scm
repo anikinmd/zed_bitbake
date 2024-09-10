@@ -1,4 +1,3 @@
-
 ; Includes
 
 [
@@ -7,7 +6,7 @@
   "require"
   "export"
   "import"
-] @include
+] @keyword
 
 ; Keywords
 
@@ -95,7 +94,7 @@
   "OVERRIDES"
   "$BB_ENV_PASSTHROUGH"
   "$BB_ENV_PASSTHROUGH_ADDITIONS"
-] @variable.builtin
+] @variable.special
 
 ; Reset highlighting in f-string interpolations
 (interpolation) @none
